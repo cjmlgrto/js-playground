@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+}
+
+body {
+	font: 16px/20px sans-serif;
+}
+
+div {
+	height: 100vh;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.left {
+	width: 75%;
+	float: left;
+}
+
+.right {
+	width: 25%;
+	float: right;
+	background: #F7F7F7;
+	border-left: 1px solid rgba(0,0,0,0.1);
+}
+
+textarea {
+	width: 100%;
+	height: 95vh;
+	font: 13px/16px "Menlo", monospace;
+	resize: none
+}
+
+span {
+	font: 13px/16px "Menlo", monospace;
+}
+
+textarea::-webkit-input-placeholder,
+textarea::-moz-placeholder {
+  color: #ccc;
+}
+
+p, ul, h1 {
+	margin-bottom: 10px;
+}
+
+ul {
+	margin-left: 20px;
+}
+
+h1 {
+	font: bold 20px/30px sans-serif;
+}

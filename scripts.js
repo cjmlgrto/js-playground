@@ -112,8 +112,8 @@ function help() {
 	"<li><span>printf()</span> can be used to print text to this output column.</li>" +
 	"<li><span>newdiv(data, style, id)</span> can be used to create a new HTML DIV in this column. The arguments <span>data</span>, <span>style</span> and <span>id</span> can be added to further customise the DIV. Note that CSS is used for the <span>style</span> argument.</li>" +
 	"<li><span>percentwidth(size)</span> can be used to enter an integer between 0 and 100 to adjust the <span>size</span> of this output window.</li>" +
-	"<li><span>require('http://path/to/file')</span> allows you to inject custom scripts and test out functions of your own"
+	"<li><span>require('http://path/to/file')</span> allows you to inject custom scripts and test out functions of your own" +
 	"<li><span>help()</span> displays this help menu.</li>" +
 	"</ul>" +
-	"<p>And many more features to come! Note that the code for this webpage can be found on GitHub, for educational purposes.</p>";
+	"<p>And many more features to come! Note that the code for this webpage can be found on <a href='https://github.com/cjmlgrto/js-playground'>GitHub</a>, for educational purposes.</p>";
 }

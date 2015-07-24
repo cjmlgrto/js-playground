@@ -12,9 +12,10 @@ A live version of the app is available at [**mlgrto.com/misc/js**](http://mlgrto
 
 ### printf()
 
-	var x = "Bat";
-	var y = "man";
-	printf(x + y);
+```js
+var x = "Bat";
+var y = "man";
+printf(x + y);
 	
 This simulates the C Language's ``printf()`` function, displaying its contents in the sidebar on the right. Think of it as a glorified ``console.log()`` but displays instead on-screen.
 

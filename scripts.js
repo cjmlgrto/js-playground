@@ -38,6 +38,8 @@ window.onload = function tab() {
 	}
 }
 
+
+
 // This code simulates the C Language's print line feature, displaying on the sidebar
 function printf(data) {
 	var line = document.createElement('P');
@@ -76,16 +78,21 @@ function newdiv(data, style, id) {
 	return object;
 }
 
+// Still working on this. At the moment, the code enables the user to import custom scripts
 function require(file) {
 	var head = document.getElementsByTagName('head')[0];
 	var newscript = document.createElement('SCRIPT');
 	var output = document.getElementById('output');
 	
-	newscript.src = file;
-	newscript.type = "text/javascript";
-	head.appendChild(newscript);
+	if (file.search(".js") > 0) {
+		newscript.src = file;
+		newscript.type = "text/javascript";
+		head.appendChild(newscript);
+		console.log(file + " has successfully been loaded.");
+	} else {
+		console.error(file + " has not been loaded. Please check the file's URL.")
+	}
 	
-	output.innerHTML = file + " has successfully been loaded.";
 }
 
 // This code allows the user to adjust the width of the output sidebar

@@ -1,4 +1,4 @@
-// JS Playground (v1.1) by @cjmlgrto
+// JS Playground by @cjmlgrto
 
 // The code below injects the <textarea>'s value as a <script> into the HTML
 function execute() {
@@ -122,5 +122,5 @@ function help() {
 	"<li><span>require('http://path/to/file')</span> allows you to inject custom scripts and test out functions of your own" +
 	"<li><span>help()</span> displays this help menu.</li>" +
 	"</ul>" +
-	"<p>And many more features to come! Note that the code for this webpage can be found on <a href='https://github.com/cjmlgrto/js-playground'>GitHub</a>, for educational purposes.</p>";
+	"<p>And many more features to come! (Feel free to request any!) Note that the code for this webpage can be found on <a href='https://github.com/cjmlgrto/js-playground'>GitHub</a>, for educational purposes.</p>";
 }
